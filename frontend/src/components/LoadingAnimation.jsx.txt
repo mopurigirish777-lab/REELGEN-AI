@@ -1,0 +1,19 @@
+export default function LoadingAnimation() {
+  return (
+
+    <div className="mt-10">
+
+      <div className="bg-slate-900 rounded-xl p-8 text-center">
+
+        <div className="animate-spin rounded-full h-16 w-16 border-4 border-violet-500 border-t-transparent mx-auto"></div>
+
+        <h2 className="text-white text-xl mt-6">
+          AI is creating your viral script...
+        </h2>
+
+      </div>
+
+    </div>
+
+  );
+}
